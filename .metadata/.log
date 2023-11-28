@@ -1009,3 +1009,9 @@ Binding(CTRL+SHIFT+F,
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-28 18:38:35.258
 !MESSAGE The POM for com.sun:tools:jar:1.5.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-11-28 19:24:17.137
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-11-28 19:25:45.530
+!MESSAGE The POM for com.sun:tools:jar:1.5.0 is missing, no dependency information available
