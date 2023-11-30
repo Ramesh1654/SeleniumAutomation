@@ -1,4 +1,3 @@
-
 Scenario: Login
 @tag
 Feature: Succesful Login with Valid Creditials
