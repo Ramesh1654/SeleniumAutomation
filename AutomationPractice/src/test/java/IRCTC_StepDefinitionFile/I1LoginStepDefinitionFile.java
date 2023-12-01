@@ -33,7 +33,7 @@ public class I1LoginStepDefinitionFile {
 		driver.get(URL);
 	}
 
-	@Then("User Click on the login button")
+	@Then("User Click on the Login button")
 	public void user_click_on_the_login_button() {
 		loginpage.Clicklogin();
 
@@ -46,7 +46,7 @@ public class I1LoginStepDefinitionFile {
 
 	}
 
-	@Then("User Click on the signin button")
+	@Then("User Click on the Signin button")
 	public void user_click_on_the_signin_button() {
 		loginpage.Clicksignin();
 
