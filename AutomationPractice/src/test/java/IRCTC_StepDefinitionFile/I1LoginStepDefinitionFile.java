@@ -1,21 +1,30 @@
 package IRCTC_StepDefinitionFile;
 
+import java.util.concurrent.TimeUnit;
+
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import IRCTC_Pageobjects.I1LoginPageObjects;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class I1LoginStepDefinitionFile {
 	public WebDriver driver;
 	public I1LoginPageObjects loginpage;
+	ChromeOptions options = new ChromeOptions();
 
 	@Given("User Lauch the Chrome Browser")
 	public void user_lauch_the_chrome_browser() {
-		driver = new ChromeDriver();
+		// WebDriverManager.chromedriver().setup();
+		options.addArguments("--disable-notifications");
+		driver = new ChromeDriver(options);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		loginpage = new I1LoginPageObjects(driver);
 	}
 
@@ -46,7 +55,6 @@ public class I1LoginStepDefinitionFile {
 	@When("Page Title should be {string}")
 	public void page_title_should_be() {
 		String Expectedtitle = "IRCTC Next Generation eTicketing System";
-		//String Actualtitle = loginpage.getPageTitle();
 		String Actualtitle = driver.getTitle();
 		if (Actualtitle.equals(Expectedtitle)) {
 			Assert.assertTrue(true);
