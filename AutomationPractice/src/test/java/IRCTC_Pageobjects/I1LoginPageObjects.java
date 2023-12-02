@@ -22,6 +22,7 @@ public class I1LoginPageObjects {
 	WebElement Password;
 	@FindBy(xpath = "//button[text()='SIGN IN']")
 	WebElement signin;
+	//@FindBy(xpath = "(//span[text()='Logout')[1]")
 	@FindBy(linkText = "Logout")
 	WebElement logout;
 

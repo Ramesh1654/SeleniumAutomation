@@ -51,26 +51,30 @@ public class I1LoginStepDefinitionFile {
 	@Then("User Click on the Signin button")
 	public void user_click_on_the_signin_button() throws Throwable {
 		System.out.println("###### BF wait######");
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		System.out.println("###### AF wait######");
 		loginpage.Clicksignin();
 		
 	}
 
 	@When("Page Title should be {string}")
-	public void page_title_should_be() {
-		String Expectedtitle = "IRCTC Next Generation eTicketing System";
+	public void page_title_should_be(String Expectedtitle) throws Throwable {
+		String Expectedtitle1 = "IRCTC Next Generation eTicketing System";
 		String Actualtitle = driver.getTitle();
-		if (Actualtitle.equals(Expectedtitle)) {
+		if (Actualtitle.equals(Expectedtitle1)) {
 			Assert.assertTrue(true);
 		} else {
 			Assert.assertTrue(false);
 		}
+		Thread.sleep(5000);
 		System.out.println("##########IRCTC opened#########");
 	}
 
 	@When("User Click on the Logout button")
 	public void user_click_on_the_logout_button() {
 		loginpage.Clicklogout();
+		System.out.println("##########User Logout successfully#########");
+		driver.quit();
+
 	}
 }
