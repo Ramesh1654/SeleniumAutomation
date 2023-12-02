@@ -1,5 +1,6 @@
 package IRCTC_StepDefinitionFile;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
@@ -11,7 +12,7 @@ import IRCTC_Pageobjects.I1LoginPageObjects;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class I1LoginStepDefinitionFile {
 	public WebDriver driver;
@@ -24,7 +25,7 @@ public class I1LoginStepDefinitionFile {
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		loginpage = new I1LoginPageObjects(driver);
 	}
 
@@ -43,13 +44,17 @@ public class I1LoginStepDefinitionFile {
 	public void user_enter_the_username_as_password(String Username, String Password) {
 		loginpage.Enterusername(Username);
 		loginpage.Enterpassword(Password);
+		System.out.println("########User ENtered credentials#######");
 
 	}
 
 	@Then("User Click on the Signin button")
-	public void user_click_on_the_signin_button() {
+	public void user_click_on_the_signin_button() throws Throwable {
+		System.out.println("###### BF wait######");
+		Thread.sleep(10000);
+		System.out.println("###### AF wait######");
 		loginpage.Clicksignin();
-
+		
 	}
 
 	@When("Page Title should be {string}")
@@ -61,6 +66,7 @@ public class I1LoginStepDefinitionFile {
 		} else {
 			Assert.assertTrue(false);
 		}
+		System.out.println("##########IRCTC opened#########");
 	}
 
 	@When("User Click on the Logout button")

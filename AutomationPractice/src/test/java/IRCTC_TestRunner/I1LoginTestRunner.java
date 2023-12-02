@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 	(
 		features=".//Features/LoginFeature.feature",
 		glue="IRCTC_StepDefinitionFile",
-		dryRun=true,
-		monochrome=false,
+		dryRun=false,
+		monochrome=true,
 		plugin= {"pretty", "html:/target/Report"}
 		
 	)

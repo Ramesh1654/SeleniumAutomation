@@ -20,7 +20,7 @@ public class I1LoginPageObjects {
 	WebElement Username;
 	@FindBy(xpath = "//form/div[2]/input[@type='password']")
 	WebElement Password;
-	@FindBy(linkText = "SIGN IN")
+	@FindBy(xpath = "//button[text()='SIGN IN']")
 	WebElement signin;
 	@FindBy(linkText = "Logout")
 	WebElement logout;
