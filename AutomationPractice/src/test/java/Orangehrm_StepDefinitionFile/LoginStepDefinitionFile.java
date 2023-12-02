@@ -1,4 +1,4 @@
-package IRCTC_StepDefinitionFile;
+package Orangehrm_StepDefinitionFile;
 
 import java.time.Duration;
 
@@ -7,58 +7,45 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import IRCTC_Pageobjects.I1LoginPageObjects;
+import Orangehrm_Pageobjects.loginpageobjects;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-
-public class I1LoginStepDefinitionFile {
+public class LoginStepDefinitionFile {
 	public WebDriver driver;
-	public I1LoginPageObjects loginpage;
+	public loginpageobjects pageobjects;
 	ChromeOptions options = new ChromeOptions();
-
+	
 	@Given("User Lauch the Chrome Browser")
 	public void user_lauch_the_chrome_browser() {
-		// WebDriverManager.chromedriver().setup();
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		loginpage = new I1LoginPageObjects(driver);
+		pageobjects = new loginpageobjects(driver);
+	   
 	}
-
 	@When("User Opens the URL {string}")
 	public void user_opens_the_url(String URL) {
 		driver.get(URL);
+	    
 	}
-
-	@Then("User Click on the Login button")
-	public void user_click_on_the_login_button() {
-		loginpage.Clicklogin();
-
-	}
-
 	@Then("User Enter the Username as {string} && Password {string}")
 	public void user_enter_the_username_as_password(String Username, String Password) {
-		loginpage.Enterusername(Username);
-		loginpage.Enterpassword(Password);
-		System.out.println("########User ENtered credentials#######");
-
+		pageobjects.EnterUsername(Username);
+		pageobjects.EnterPassword(Password);
 	}
-
-	@Then("User Click on the Signin button")
-	public void user_click_on_the_signin_button() throws Throwable {
-		System.out.println("###### BF wait######");
-		Thread.sleep(15000);
-		System.out.println("###### AF wait######");
-		loginpage.Clicksignin();
-		
+	
+	@Then("User Click on the Login button")
+	public void user_click_on_the_login_button() {
+		pageobjects.Clicklogin();
 	}
-
+	
 	@When("Page Title should be {string}")
 	public void page_title_should_be(String Expectedtitle) throws Throwable {
-		String Expectedtitle1 = "IRCTC Next Generation eTicketing System";
+		String Expectedtitle1 = "OrangeHRM";
 		String Actualtitle = driver.getTitle();
 		if (Actualtitle.equals(Expectedtitle1)) {
 			Assert.assertTrue(true);
@@ -66,14 +53,18 @@ public class I1LoginStepDefinitionFile {
 			Assert.assertTrue(false);
 		}
 		Thread.sleep(5000);
-		System.out.println("##########IRCTC opened#########");
 	}
+	
+	@Then("User Click on the Userdropdown")
+	public void user_click_on_the_userdropdown() throws Throwable {
+		pageobjects.Clickdropdown();
+		Thread.sleep(6000);
 
-	@When("User Click on the Logout button")
-	public void user_click_on_the_logout_button() {
-		loginpage.Clicklogout();
-		System.out.println("##########User Logout successfully#########");
+	}
+	@Then("User Select & Click on the Logout button")
+	public void user_select_click_on_the_logout_button() throws Throwable {
+		pageobjects.Clicklogout();
+		Thread.sleep(5000);
 		driver.quit();
-
 	}
 }

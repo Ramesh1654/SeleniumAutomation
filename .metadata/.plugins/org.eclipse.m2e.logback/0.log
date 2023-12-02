@@ -861,3 +861,352 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.seleniumh
 2023-12-01 18:25:11,991 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
 2023-12-01 18:25:52,822 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
 2023-12-01 18:25:52,824 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 09:46:08,082 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-02 09:47:26,519 [Worker-4: Launching I1LoginTestRunner] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2023-12-02 09:47:26,533 [Worker-4: Launching I1LoginTestRunner] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2023-12-02 09:53:48,922 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 09:53:48,927 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 09:54:56,428 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 09:54:56,431 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 09:55:55,687 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 09:55:55,689 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:01:51,907 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:01:51,909 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:22:59,805 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:22:59,832 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:23:28,840 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:23:28,844 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:26:16,443 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:26:16,446 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:28:47,666 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:28:47,669 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:31:05,827 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:31:05,829 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:31:15,644 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:31:15,646 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:32:58,726 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:32:58,728 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:33:13,706 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:33:13,708 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:35:38,228 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:35:38,231 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:36:29,309 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 10:36:30,480 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 10:36:32,474 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 10:36:32,475 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 10:36:32,476 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 10:36:32,477 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 10:36:32,477 [Worker-39: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 10:36:34,268 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 2.00 sec 
+2023-12-02 10:36:34,613 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:36:34,618 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:37:12,510 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:37:12,513 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:38:05,892 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:38:05,894 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:38:23,759 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:38:23,762 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:43:45,188 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 10:43:45,420 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 10:43:46,278 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 10:43:46,278 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 10:43:46,279 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 10:43:46,279 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 10:43:46,279 [Worker-35: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 10:43:46,634 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-12-02 10:43:47,610 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:43:47,616 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:44:06,437 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:44:06,439 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:45:43,114 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 10:45:43,349 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 10:45:44,032 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 10:45:44,033 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 10:45:44,033 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 10:45:44,033 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 10:45:44,033 [Worker-39: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 10:45:44,925 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-12-02 10:45:45,329 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:45:45,333 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:47:17,097 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:47:17,099 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:48:23,457 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 10:48:23,664 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 10:48:24,211 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 10:48:24,211 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 10:48:24,212 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 10:48:24,212 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 10:48:24,212 [Worker-35: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 10:48:24,467 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-12-02 10:48:25,321 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:48:25,326 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 10:49:01,567 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 10:49:01,570 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:21:48,311 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-02 11:26:34,296 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 11:26:35,535 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 11:26:36,993 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 11:26:36,993 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 11:26:36,994 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 11:26:36,994 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 11:26:36,995 [Worker-7: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 11:26:37,346 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2023-12-02 11:26:37,957 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:26:37,964 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:32:07,185 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:32:07,188 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:34:43,423 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:34:43,426 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:35:02,204 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:35:02,206 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:35:27,550 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:35:27,552 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:38:27,513 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:38:27,571 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:39:00,997 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:39:01,030 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:40:07,670 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:40:07,699 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:41:52,349 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:41:52,370 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:42:14,028 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:42:14,033 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:46:55,049 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:46:55,079 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:47:05,319 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:47:05,321 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:50:15,844 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:50:15,846 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:51:24,402 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:51:24,404 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:52:28,350 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:52:28,362 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:55:21,725 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:55:21,748 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:58:23,937 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:58:24,038 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 11:59:34,050 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 11:59:34,052 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:01:23,747 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:01:23,774 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:02:21,609 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:02:21,629 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:09:46,361 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:09:46,364 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:10:09,087 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:10:09,088 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:10:29,886 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:10:29,902 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:12:27,687 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:12:27,690 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:15:00,562 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:15:00,564 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:15:11,611 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:15:11,613 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:22:53,725 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:22:53,728 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:23:26,027 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:23:26,043 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:32:21,808 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:32:21,811 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:35:33,995 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:35:33,997 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:37:20,395 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:37:20,416 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:38:45,979 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:38:45,981 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:40:13,353 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:40:13,368 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:58:22,105 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:58:22,107 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 12:59:42,776 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 12:59:42,778 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:00:24,860 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:00:24,861 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:00:59,317 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:00:59,320 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:09:02,326 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:09:02,328 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:09:13,654 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:09:13,656 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:30:10,961 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:30:10,963 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:33:11,015 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:33:11,018 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:37:03,092 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:37:03,094 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:37:55,932 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:37:55,935 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:39:26,817 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:39:26,818 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:39:32,841 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:39:32,843 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:40:07,044 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:40:07,045 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:41:14,873 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:41:14,875 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:44:09,325 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:44:09,326 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:44:36,523 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:44:36,524 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:46:11,120 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:46:11,121 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:47:10,456 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:47:10,457 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:49:45,576 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:49:45,577 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:50:28,790 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:50:28,791 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:51:29,681 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:51:29,692 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:51:48,858 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:51:48,859 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:51:57,746 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:51:57,748 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:52:04,109 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:52:04,110 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:53:02,015 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:53:02,017 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:53:17,760 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:53:17,761 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:53:28,360 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:53:28,362 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:56:57,262 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:56:57,264 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:57:09,099 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:57:09,100 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:57:14,328 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:57:14,330 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:58:02,621 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:58:02,625 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 13:58:34,407 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 13:58:34,408 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:00:34,512 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:00:34,513 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:00:41,510 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:00:41,512 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:01:15,507 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:01:15,509 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:03:53,144 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:03:53,146 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:04:26,952 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:04:26,953 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:04:39,254 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:04:39,255 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:04:45,703 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:04:45,705 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 14:06:32,119 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 14:06:32,120 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:29:44,727 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-02 17:31:46,939 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:31:46,944 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:33:21,718 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:33:21,722 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:33:32,191 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:33:32,193 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:36:19,016 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:36:19,018 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:39:31,451 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:39:31,454 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:41:23,724 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:41:23,726 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:42:09,030 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:42:09,031 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:44:25,084 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:44:25,086 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:45:29,897 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:45:29,900 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:51:59,733 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:51:59,757 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:53:00,215 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:53:00,216 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:54:23,050 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:54:23,068 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 17:59:22,207 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 17:59:22,209 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:01:00,104 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:01:00,107 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:05:53,201 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:05:53,203 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:06:48,404 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:06:48,406 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:06:54,320 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:06:54,323 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:07:12,835 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:07:12,837 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:07:25,951 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:07:25,953 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:08:21,010 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:08:21,024 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:09:00,029 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:09:00,032 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:09:08,910 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 18:09:10,656 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 18:09:13,854 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 18:09:13,856 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 18:09:13,857 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 18:09:13,858 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 18:09:13,859 [Worker-25: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 18:09:14,266 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 4.00 sec, update config takes 0.00 sec 
+2023-12-02 18:09:14,611 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:09:14,615 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:17:44,430 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:17:44,431 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:18:24,031 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:18:24,034 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:18:39,922 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 18:18:40,183 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 18:18:41,669 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 18:18:41,672 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 18:18:41,679 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 18:18:41,680 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 18:18:41,681 [Worker-42: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 18:18:42,581 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 1.00 sec 
+2023-12-02 18:18:44,001 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:18:44,006 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:21:08,808 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-02 18:21:09,030 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ProjectGroup:AutomationPractice:0.0.1-SNAPSHOT @ D:\SeleniumAutomation\AutomationPractice\pom.xml.
+2023-12-02 18:21:09,743 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/main/java
+2023-12-02 18:21:09,743 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/main/resources
+2023-12-02 18:21:09,743 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutomationPractice/src/test/java
+2023-12-02 18:21:09,743 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutomationPractice/src/test/resources
+2023-12-02 18:21:09,743 [Worker-34: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-1.8', falling back to workspace default
+2023-12-02 18:21:10,193 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-12-02 18:21:10,867 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:21:10,871 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:23:09,983 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:23:09,985 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:25:01,878 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:25:01,898 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:27:54,164 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:27:54,166 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:28:18,074 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:28:18,098 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:29:02,308 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:29:02,309 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:29:50,486 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:29:50,487 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:30:33,439 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:30:33,441 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:32:54,973 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:32:54,975 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:34:03,626 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:34:03,627 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:37:31,481 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:37:31,498 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:38:48,656 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:38:48,657 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:44:21,511 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:44:21,513 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:44:39,741 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:44:39,743 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:44:53,136 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:44:53,168 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 18:44:59,496 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 18:44:59,497 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 19:05:09,028 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 19:05:09,030 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 19:08:49,180 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 19:08:49,182 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
+2023-12-02 19:09:58,842 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\main\resources
+2023-12-02 19:09:58,844 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SeleniumAutomation\AutomationPractice\src\test\resources
