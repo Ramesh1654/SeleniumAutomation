@@ -13,7 +13,6 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		monochrome=true,
 		plugin= {"pretty", "html:/target/Report"}
-		
 	)
 
 public class I1LoginTestRunner {
