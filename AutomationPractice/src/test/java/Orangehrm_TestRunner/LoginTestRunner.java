@@ -1,7 +1,6 @@
 package Orangehrm_TestRunner;
 
 import org.junit.runner.RunWith;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -13,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		monochrome=true,
 		plugin= {"pretty", "html:target/Report1"}
-		
+		//tags= {"@tag1" and "@tag2"}
 	)
 
 public class LoginTestRunner {

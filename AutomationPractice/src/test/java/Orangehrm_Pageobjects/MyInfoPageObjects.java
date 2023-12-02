@@ -5,10 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class loginpageobjects {
+public class MyInfoPageObjects {
+
 	public WebDriver Idriver;
 
-	public loginpageobjects(WebDriver rdriver) {
+	public MyInfoPageObjects(WebDriver rdriver) {
 		Idriver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
@@ -19,31 +20,33 @@ public class loginpageobjects {
 	WebElement Password;
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement Login;
-
+	@FindBy(xpath = "//a[@class='oxd-main-menu-item active']")
+	WebElement MyInfo;
 	@FindBy(xpath = "//p[@class='oxd-userdropdown-name']")
 	WebElement Dropdown;
 
 	@FindBy(xpath = "//a[text()='Logout']")
 	WebElement Logout;
 
-	public void EnterUsername(String usrname) {
+	public void Userfield(String usrname) {
 		Username.sendKeys(usrname);
 	}
 
-	public void EnterPassword(String paswrd) {
+	public void Passwordfield(String paswrd) {
 		Password.sendKeys(paswrd);
 	}
 
-	public void Clicklogin() {
+	public void loginbutton() {
 		Login.click();
 	}
-
-	public void Clickdropdown() {
+	public void Clickmyinfo() {
+		MyInfo.click();
+	}
+	public void Dropdownbutton() {
 		Dropdown.click();
 	}
 
-	public void Clicklogout() {
+	public void Logoutbutton() {
 		Logout.click();
 	}
-
 }
