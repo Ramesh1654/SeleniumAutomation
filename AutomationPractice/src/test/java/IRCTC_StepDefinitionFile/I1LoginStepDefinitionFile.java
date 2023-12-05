@@ -2,6 +2,8 @@ package IRCTC_StepDefinitionFile;
 
 import java.time.Duration;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,27 +17,34 @@ import io.cucumber.java.en.When;
 
 public class I1LoginStepDefinitionFile {
 	public WebDriver driver;
+	public Logger Logger;
 	public I1LoginPageObjects loginpage;
 	ChromeOptions options = new ChromeOptions();
 
 	@Given("User Launch the Chrome Browser1")
 	public void user_launch_the_chrome_browser1() {
-		// WebDriverManager.chromedriver().setup();
+		Logger=org.apache.log4j.Logger.getLogger("AutomationPractice");
+		PropertyConfigurator.configure("log4j.properties");
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		Logger.info("**************ChromeBrowser was Lauched****************");
 		loginpage = new I1LoginPageObjects(driver);
 	}
 
 	@When("User Opens the URL {string}")
 	public void user_opens_the_url(String URL) {
 		driver.get(URL);
+		Logger.info("**************IRCTC Application was Opened************");
+
 	}
 
 	@Then("User Click on the Login button")
 	public void user_click_on_the_login_button() {
 		loginpage.Clicklogin();
+		Logger.info("***********User Click on the Login Button*************");
+
 
 	}
 
@@ -43,15 +52,14 @@ public class I1LoginStepDefinitionFile {
 	public void userr_enter_thee_username_as_password(String Username, String Password) {
 		loginpage.Enterusername(Username);
 		loginpage.Enterpassword(Password);
-		System.out.println("########User ENtered credentials#######");
+		Logger.info("*********User Enter the Username && Password******************");
 
 	}
 
 	@Then("User Click on the Signin button")
 	public void user_click_on_the_signin_button() throws Throwable {
-		System.out.println("###### BF wait######");
 		Thread.sleep(15000);
-		System.out.println("###### AF wait######");
+		Logger.info("****************User Click on the Signin button************");
 		loginpage.Clicksignin();
 		
 	}
@@ -66,13 +74,13 @@ public class I1LoginStepDefinitionFile {
 			Assert.assertTrue(false);
 		}
 		Thread.sleep(5000);
-		System.out.println("##########IRCTC opened#########");
+		Logger.info("*********IRCTC Homepage was Opened**********");
 	}
 
 	@When("User Click on the Logout button")
 	public void user_click_on_the_logout_button() {
 		loginpage.Clicklogout();
-		System.out.println("##########User Logout successfully#########");
+		Logger.info("***********User Logout successfully**********");
 		driver.quit();
 
 	}

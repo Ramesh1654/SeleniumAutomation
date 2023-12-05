@@ -1,0 +1,8 @@
+2023-12-05 12:34:29,339  INFO [main] AutomationPractice:32 - ChromeBrowser was Lauched
+  2023-12-05 12:34:38,770  INFO [main] AutomationPractice:39 - IRCTC Application was Opened
+  2023-12-05 12:34:38,991  INFO [main] AutomationPractice:46 - User Click on the Login Button
+  2023-12-05 12:34:39,947  INFO [main] AutomationPractice:55 - User Enter the Username && Password
+  2023-12-05 12:34:54,958  INFO [main] AutomationPractice:62 - User Click on the Signin button
+  2023-12-05 12:35:00,289  INFO [main] AutomationPractice:77 - *********IRCTC Homepage was Opened**********
+  2023-12-05 12:35:00,525  INFO [main] AutomationPractice:83 - ##########User Logout successfully#########
+  
