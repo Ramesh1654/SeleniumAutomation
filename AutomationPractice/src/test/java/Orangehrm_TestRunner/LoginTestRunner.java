@@ -11,8 +11,9 @@ import io.cucumber.junit.CucumberOptions;
 		glue="Orangehrm_StepDefinitionFile",
 		dryRun=false,
 		monochrome=true,
+		tags= "@tag2 or @tag3",
 		plugin= {"pretty", "html:target/Report1"}
-		//tags= {"@tag1" and "@tag2"}
+		
 	)
 
 public class LoginTestRunner {

@@ -16,6 +16,7 @@ import io.cucumber.java.en.When;
 public class MyInfoStepDefinitionFile {
 	public WebDriver driver;
 	public MyInfoPageObjects InfoObjects;
+	
 	ChromeOptions options = new ChromeOptions();
 	
 	@Given("User Lauch the Chrome Browser")
@@ -27,24 +28,24 @@ public class MyInfoStepDefinitionFile {
 		InfoObjects = new MyInfoPageObjects(driver);
 	   
 	}
-	@When("User Opens the URL {string}")
-	public void user_opens_the_url(String URL) {
-		driver.get(URL);
+	@When("User Opens the OrangeHrmURL {string}")
+	public void user_opens_the_orange_hrm_url(String OrangeHrmURL) {
+		driver.get(OrangeHrmURL);
 	    
 	}
 	@And("User Enter the Username as {string} && Password {string}")
-	public void user_enter_the_username_as_password(String Username, String Password) {
+	public void user_enter_the_username_as_password(String Username, String Password) throws Throwable {
 		InfoObjects.Userfield(Username);
 		InfoObjects.Passwordfield(Password);
 	}
 	
-	@Then("User Click on the Login button")
-	public void user_click_on_the_login_button() {
+	@Then("User Click on the OrangehrmLogin button")
+	public void user_click_on_the_orangehrm_login_button() {
 		InfoObjects.loginbutton();
 	}
 	
-	@When("Page Title should be {string}")
-	public void page_title_should_be(String Expectedtitle) throws Throwable {
+	@When("Pagee Title should be {string}")
+	public void pagee_title_should_be(String Expectedtitle) throws Throwable {
 		String Expectedtitle1 = "OrangeHRM";
 		String Actualtitle = driver.getTitle();
 		if (Actualtitle.equals(Expectedtitle1)) {
@@ -55,18 +56,19 @@ public class MyInfoStepDefinitionFile {
 		Thread.sleep(5000);
 	}
 	@And("User Click on the My Info")
-	public void user_click_on_the_my_info() {
+	public void user_click_on_the_my_info() throws Throwable {
 		InfoObjects.Clickmyinfo();
+		Thread.sleep(8000);
 	}
 	
-	@Then("User Click on the Userdropdown")
-	public void user_click_on_the_userdropdown() throws Throwable {
+	@Then("Userr Click on the Userdropdown")
+	public void userr_click_on_the_userdropdown() throws Throwable {
 		InfoObjects.Dropdownbutton();
 		Thread.sleep(6000);
 
 	}
-	@Then("User Select & Click on the Logout button")
-	public void user_select_click_on_the_logout_button() throws Throwable {
+	@And("User Click on the HRMLogout button")
+	public void user_click_on_the_hrm_logout_button() throws Throwable {
 		InfoObjects.Logoutbutton();
 		Thread.sleep(5000);
 		driver.quit();

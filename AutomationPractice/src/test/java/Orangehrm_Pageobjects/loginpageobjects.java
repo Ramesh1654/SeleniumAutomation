@@ -6,17 +6,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class loginpageobjects {
-	public WebDriver Idriver;
+	public WebDriver Edriver;
 
-	public loginpageobjects(WebDriver rdriver) {
-		Idriver = rdriver;
-		PageFactory.initElements(rdriver, this);
+	public loginpageobjects(WebDriver Fdriver) {
+		Edriver = Fdriver;
+		PageFactory.initElements(Fdriver, this);
 	}
 
-	@FindBy(xpath = "//input[@name='username']")
-	WebElement Username;
+	@FindBy(xpath = "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")
+	WebElement Userfiledname;
 	@FindBy(xpath = "//input[@type='password']")
-	WebElement Password;
+	WebElement Passwordfield;
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement Login;
 
@@ -27,11 +27,11 @@ public class loginpageobjects {
 	WebElement Logout;
 
 	public void EnterUsername(String usrname) {
-		Username.sendKeys(usrname);
+		Userfiledname.sendKeys(usrname);
 	}
 
 	public void EnterPassword(String paswrd) {
-		Password.sendKeys(paswrd);
+		Passwordfield.sendKeys(paswrd);
 	}
 
 	public void Clicklogin() {

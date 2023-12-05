@@ -20,7 +20,7 @@ public class MyInfoPageObjects {
 	WebElement Password;
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement Login;
-	@FindBy(xpath = "//a[@class='oxd-main-menu-item active']")
+	@FindBy(xpath = "//*[@id='app']/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a")
 	WebElement MyInfo;
 	@FindBy(xpath = "//p[@class='oxd-userdropdown-name']")
 	WebElement Dropdown;

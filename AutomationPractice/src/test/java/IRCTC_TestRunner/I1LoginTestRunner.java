@@ -11,8 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		glue="IRCTC_StepDefinitionFile",
 		dryRun=false,
 		monochrome=true,
+		tags="@tag1",
 		plugin= {"pretty", "html:target/Report"}
-		//tags={"@tag1 and @tag2"}
 	)
 
 public class I1LoginTestRunner {

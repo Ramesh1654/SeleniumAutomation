@@ -18,8 +18,8 @@ public class I1LoginStepDefinitionFile {
 	public I1LoginPageObjects loginpage;
 	ChromeOptions options = new ChromeOptions();
 
-	@Given("User Lauch the Chrome Browser")
-	public void user_lauch_the_chrome_browser() {
+	@Given("User Launch the Chrome Browser1")
+	public void user_launch_the_chrome_browser1() {
 		// WebDriverManager.chromedriver().setup();
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
@@ -39,8 +39,8 @@ public class I1LoginStepDefinitionFile {
 
 	}
 
-	@Then("User Enter the Username as {string} && Password {string}")
-	public void user_enter_the_username_as_password(String Username, String Password) {
+	@Then("Userr Enter thee Username as {string} && Password {string}")
+	public void userr_enter_thee_username_as_password(String Username, String Password) {
 		loginpage.Enterusername(Username);
 		loginpage.Enterpassword(Password);
 		System.out.println("########User ENtered credentials#######");

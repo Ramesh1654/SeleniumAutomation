@@ -18,8 +18,8 @@ public class LoginStepDefinitionFile {
 	public loginpageobjects pageobjects;
 	ChromeOptions options = new ChromeOptions();
 	
-	@Given("User Lauch the Chrome Browser")
-	public void user_lauch_the_chrome_browser() {
+	@Given("User Launch the Chrome Browser")
+	public void user_launch_the_chrome_browser() {
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
@@ -32,13 +32,13 @@ public class LoginStepDefinitionFile {
 		driver.get(URL);
 	    
 	}
-	@Then("User Enter the Username as {string} && Password {string}")
-	public void user_enter_the_username_as_password(String Username, String Password) {
-		pageobjects.EnterUsername(Username);
-		pageobjects.EnterPassword(Password);
+	@Then("User Enter the Userfiledname as {string} && Passwordfield {string}")
+	public void user_enter_the_userfiledname_as_passwordfield(String Userfiledname, String Passwordfield) {
+		pageobjects.EnterUsername(Userfiledname);
+		pageobjects.EnterPassword(Passwordfield);
 	}
 	
-	@Then("User Click on the Login button")
+	@And("User Click on the Login button")
 	public void user_click_on_the_login_button() {
 		pageobjects.Clicklogin();
 	}
@@ -55,7 +55,7 @@ public class LoginStepDefinitionFile {
 		Thread.sleep(5000);
 	}
 	
-	@Then("User Click on the Userdropdown")
+	@And("User Click on the Userdropdown")
 	public void user_click_on_the_userdropdown() throws Throwable {
 		pageobjects.Clickdropdown();
 		Thread.sleep(6000);
