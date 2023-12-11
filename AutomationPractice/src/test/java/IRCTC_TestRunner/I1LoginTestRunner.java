@@ -11,8 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 		glue="IRCTC_StepDefinitionFile",
 		dryRun=false,
 		monochrome=true,
-		tags="@tag1",
-		plugin= {"pretty", "html:target/Report"}
+		tags="@tag1",//"Scenarios under @tag1 will be Executed"
+		//plugin= {"pretty", "html:target/Report"}
+       // plugin = {"json:target/cucumber.json"}
+        plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 	)
 
 public class I1LoginTestRunner {

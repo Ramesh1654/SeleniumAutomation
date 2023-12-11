@@ -1,0 +1,14 @@
+2023-12-09 18:22:37,533  INFO [main] AutomationPractice:40 - **************ChromeBrowser was Lauched****************
+  2023-12-09 18:22:43,703  INFO [main] AutomationPractice:47 - **************info: IRCTC Application was Opened************
+  2023-12-09 18:22:43,704  WARN [main] AutomationPractice:48 - **************warn: IRCTC Application was Opened************
+  2023-12-09 18:22:43,705 ERROR [main] AutomationPractice:49 - ************error: IRCTC Application was Opened************
+  2023-12-09 18:22:43,706 FATAL [main] AutomationPractice:50 - ************fatal: IRCTC Application was Opened************
+  2023-12-09 18:22:43,706 DEBUG [main] AutomationPractice:51 - ************fatal: IRCTC Application was Opened************
+  2023-12-09 18:22:43,927  INFO [main] AutomationPractice:58 - ***********User Click on the Login Button*************
+  2023-12-09 18:22:44,046  INFO [main] AutomationPractice:80 - *********User Enter the Username******************
+  2023-12-09 18:22:44,180  INFO [main] AutomationPractice:82 - *********User Enter the Password******************
+  2023-12-09 18:22:59,185  INFO [main] AutomationPractice:89 - ****************User will Click on the Signin button************
+  2023-12-09 18:22:59,246  INFO [main] AutomationPractice:91 - ****************User Clicked on the Signin button************
+  2023-12-09 18:23:04,287  INFO [main] AutomationPractice:105 - *********IRCTC Homepage was Opened**********
+  2023-12-09 18:23:06,881  INFO [main] AutomationPractice:111 - ***********User Logout successfully**********
+  

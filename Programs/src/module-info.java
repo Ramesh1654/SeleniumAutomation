@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Javaprograms {
+module Programs {
 }
