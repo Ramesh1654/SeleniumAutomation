@@ -16,10 +16,11 @@ public class FileUploading {
 		driver.get("https://www.foundit.in/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		WebElement ele=driver.findElement(By.xpath("//div[@class='heroSection-buttonContainer_secondaryBtn__text']"));
-		ele.click();
-		driver.findElement(By.xpath("//button[text()='Or select file to upload']"));
-		ele.sendKeys("D:\\Resume\\Ramesh_3QA");
+		driver.findElement(By.xpath("//div[@class='heroSection-buttonContainer_secondaryBtn__text']")).click();
+		WebElement ele1=driver.findElement(By.xpath("//*[@id='heroSection-container']/div[4]/div/div/section/div/form/div[1]/div[1]/div/div/button"));
+		ele1.sendKeys("C:\\Users\\admin\\Desktop\\File.txt");
+		WebElement ele2=driver.findElement(By.linkText("submit"));
+		ele2.click();
 		driver.quit();
 	}
 

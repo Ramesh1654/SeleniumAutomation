@@ -1,10 +1,8 @@
 package IRCTC_StepDefinitionFile;
 
 import java.io.File;
-import java.io.IOException;
-import java.time.Duration;
 
-import org.apache.commons.io.FileUtils;
+import java.time.Duration;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
@@ -14,16 +12,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import ExtentPackage.ExtentCasesRreports;
 import IRCTC_Pageobjects.I1LoginPageObjects;
-import io.cucumber.java.Scenario;
+import IRCTC_Utilities.I1LoginUtilities;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class I1LoginStepDefinitionFile {
-	public WebDriver driver;
+	static WebDriver driver;
 	public Logger logger;
 	public I1LoginPageObjects loginpage;
+	public ExtentCasesRreports TestReports;
+	public I1LoginUtilities Utility;
 	ChromeOptions options = new ChromeOptions();
 
 	@Given("User Launch the Chrome Browser1")
@@ -39,6 +42,9 @@ public class I1LoginStepDefinitionFile {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		logger.info("**************ChromeBrowser was Lauched****************");
 		loginpage = new I1LoginPageObjects(driver);
+		TestReports = new ExtentCasesRreports();
+		// I1LoginUtilities.CaptureScreenshot("image.jpg");
+		// I1LoginUtilities.captureScreenshot();
 	}
 
 	@When("User Opens the URL {string}")
@@ -49,6 +55,9 @@ public class I1LoginStepDefinitionFile {
 		logger.error("************error: IRCTC Application was Opened************");
 		logger.fatal("************fatal: IRCTC Application was Opened************");
 		logger.debug("************fatal: IRCTC Application was Opened************");
+		I1LoginUtilities.CaptureScreenshot11("image.jpg");
+		I1LoginUtilities.captureScreenshot22();
+		ExtentCasesRreports.Extentmethod();
 
 	}
 
@@ -57,21 +66,6 @@ public class I1LoginStepDefinitionFile {
 		loginpage.Clicklogin();
 		logger.info("***********User Click on the Login Button*************");
 
-	}
-
-	public void teardown(Scenario sc) {
-		System.out.println("Tear Down method executed...");
-		if (sc.isFailed() == true) {
-			String fielwithPath = "C:\\Users\\admin\\Desktop\\RAM";
-			TakesScreenshot scrShot = ((TakesScreenshot) driver);
-			File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
-			File DestFile = new File(fielwithPath);
-			try {
-				FileUtils.copyFile(SrcFile, DestFile);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
 	}
 
 	@Then("Userr Enter thee Username as {string} && Password {string}")
@@ -111,12 +105,4 @@ public class I1LoginStepDefinitionFile {
 		logger.info("***********User Logout successfully**********");
 		driver.quit();
 	}
-
-	public void addscreenshot(Scenario scenario) {
-		if (scenario.isFailed()) {
-			final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(screenshot, "image/png", scenario.getName());
-		}
-	}
-
 }

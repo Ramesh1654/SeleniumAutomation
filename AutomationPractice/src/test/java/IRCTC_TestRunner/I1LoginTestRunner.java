@@ -12,9 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		monochrome=true,
 		tags="@tag1",//"Scenarios under @tag1 will be Executed"
-		//plugin= {"pretty", "html:target/Report"}
-       // plugin = {"json:target/cucumber.json"}
-        plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		plugin= {"pretty", "html:target/Report"}
+       
 	)
 
 public class I1LoginTestRunner {
