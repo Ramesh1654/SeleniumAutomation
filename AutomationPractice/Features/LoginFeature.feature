@@ -9,6 +9,8 @@ Scenario: Succesful Login with Valid Creditials
  Then    User Click on the Signin button
  When    Page Title should be "IRCTC Next Generation eTicketing System"
  And     User Click on the Logout button
+ 
+ 
 
 #Feature: The purpose of the Feature keyword is to provide a high-level description of a software feature, and to group related scenarios.
 #Scenario: In addition to being a specification and documentation, a scenario is also a test. As a whole, your scenarios are an executable specification of the system.

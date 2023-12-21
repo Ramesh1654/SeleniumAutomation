@@ -2,18 +2,14 @@ package IRCTC_StepDefinitionFile;
 
 import java.awt.Desktop;
 import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-import ExtentPackage.ExtentCasesRreports;
 import IRCTC_Pageobjects.I1LoginPageObjects;
 import IRCTC_Utilities.I1LoginUtilities;
 import io.cucumber.java.en.Given;
@@ -21,7 +17,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class I1LoginStepDefinitionFile extends I1LoginUtilities {
-	// static WebDriver driver;
+	// static WebDriver driver;// DONT WRITE WEBDRIVER IN STEPDEFINITION FILE IF U WRITE HERE 
+	//U WILL GET NULL POINTER EXCEPTION && WEBDRIVER WILL DECLARE IN UTILITILES FILE
 	public Logger logger;
 	public I1LoginPageObjects loginpage;
 	// public ExtentCasesRreports TestReports;
