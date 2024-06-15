@@ -1,0 +1,9 @@
+{
+  "name": "Kim",
+  "location": "US",
+  "phone": "98876543213",
+  "courses": [
+    "C",
+    "C++"
+  ]
+}

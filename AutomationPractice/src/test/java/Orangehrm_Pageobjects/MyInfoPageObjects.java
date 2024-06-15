@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MyInfoPageObjects {
+import Orangehrm_Utilities.LoginUtitlies;
+
+public class MyInfoPageObjects extends LoginUtitlies{
 
 	public WebDriver Idriver;
 
@@ -13,7 +15,6 @@ public class MyInfoPageObjects {
 		Idriver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-
 	@FindBy(xpath = "//input[@name='username']")
 	WebElement Username;
 	@FindBy(xpath = "//input[@type='password']")
@@ -37,16 +38,20 @@ public class MyInfoPageObjects {
 	}
 
 	public void loginbutton() {
+		addingFluentWait(30, Login);
 		Login.click();
 	}
 	public void Clickmyinfo() {
+		addingFluentWait(30, MyInfo);
 		MyInfo.click();
 	}
 	public void Dropdownbutton() {
+		addingFluentWait(30, Dropdown);
 		Dropdown.click();
 	}
 
 	public void Logoutbutton() {
+		addingFluentWait(30, Logout);
 		Logout.click();
 	}
 }

@@ -11,7 +11,7 @@ public class Fibonacciseries {
 		System.out.println("Enter the number:");
 		Scanner sc=new Scanner(System.in);
 		int fir=0, sec=1, sum=0;
-		System.out.println(fir+""+sec);
+		System.out.println(fir+" "+sec);
 		for(int i=2;i<10;i++) {
 			sum=fir+sec;
 			System.out.print(" "+sum);

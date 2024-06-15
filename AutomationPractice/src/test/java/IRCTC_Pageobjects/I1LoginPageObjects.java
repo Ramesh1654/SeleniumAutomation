@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class I1LoginPageObjects {
+public class I1LoginPageObjects  {
 	WebDriver Idriver;
 
 	public I1LoginPageObjects(WebDriver rDriver) {

@@ -59,7 +59,7 @@
 			<artifactId>log4j-api</artifactId>
 			<version>2.22.0</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -80,15 +80,17 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>7.13.0</version>
+			<version>7.16.1</version>
 			<scope>test</scope>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>7.13.0</version>
+			<version>7.16.1</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -132,7 +134,7 @@
 		</dependency>
 	</dependencies>
 
-<!-- This below code for to Generate html reports -->
+	<!-- This below code for to Generate html reports -->
 	<build>
 		<plugins>
 			<plugin>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T11:35:45 IST" name="Suite" finished-at="2024-06-11T11:35:52 IST" duration-ms="7458">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T11:35:45 IST" name="Test" finished-at="2024-06-11T11:35:52 IST" duration-ms="7458">
+      <class name="Chaininguser.Deleteruser">
+        <test-method signature="Deleteuser(org.testng.ITestContext)[pri:0, instance:Chaininguser.Deleteruser@747ddf94]" started-at="2024-06-11T11:35:51 IST" name="Deleteuser" finished-at="2024-06-11T11:35:52 IST" duration-ms="1018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cc1435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteuser -->
+      </class> <!-- Chaininguser.Deleteruser -->
+      <class name="Chaininguser.Createuser">
+        <test-method signature="testcreateuser(org.testng.ITestContext)[pri:0, instance:Chaininguser.Createuser@6069db50]" started-at="2024-06-11T11:35:45 IST" name="testcreateuser" finished-at="2024-06-11T11:35:48 IST" duration-ms="3458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cc1435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateuser -->
+      </class> <!-- Chaininguser.Createuser -->
+      <class name="Chaininguser.Getuser">
+        <test-method signature="testgetuser(org.testng.ITestContext)[pri:0, instance:Chaininguser.Getuser@5b8dfcc1]" started-at="2024-06-11T11:35:48 IST" name="testgetuser" finished-at="2024-06-11T11:35:50 IST" duration-ms="1449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cc1435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetuser -->
+      </class> <!-- Chaininguser.Getuser -->
+      <class name="Chaininguser.Updateuser">
+        <test-method signature="testUpdateuser(org.testng.ITestContext)[pri:0, instance:Chaininguser.Updateuser@2f9f7dcf]" started-at="2024-06-11T11:35:50 IST" name="testUpdateuser" finished-at="2024-06-11T11:35:51 IST" duration-ms="1471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cc1435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateuser -->
+      </class> <!-- Chaininguser.Updateuser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

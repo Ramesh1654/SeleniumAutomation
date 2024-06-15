@@ -1,6 +1,7 @@
 package IRCTC_StepDefinitionFile;
 
 import java.awt.Desktop;
+
 import java.io.File;
 import java.time.Duration;
 import org.apache.log4j.Logger;
@@ -40,7 +41,6 @@ public class I1LoginStepDefinitionFile extends I1LoginUtilities {
 		loginpage = new I1LoginPageObjects(driver);
 		// System.out.println("driver="+driver); // To cross check driver is initialized
 		// or not
-
 	}
 
 	@When("User Opens the URL {string}")
