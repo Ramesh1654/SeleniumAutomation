@@ -1,7 +1,7 @@
 Feature: Login
 
 @tag1
-Scenario: Succesful Login with Valid Creditials
+Scenario: Successful Login with Valid Credentials
  Given  User Launch the Chrome Browser1
  When    User Opens the URL "https://www.irctc.co.in/nget/train-search"
  Then    User Click on the Login button

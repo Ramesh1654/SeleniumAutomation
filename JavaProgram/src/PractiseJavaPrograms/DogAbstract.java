@@ -1,4 +1,4 @@
-package Practiseprograms;
+package PractiseJavaPrograms;
 
 //Abstract class
 abstract class Animal {

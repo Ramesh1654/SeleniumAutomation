@@ -1,4 +1,4 @@
-package Practiseprograms;
+package PractiseJavaPrograms;
 
 public class PrintPrimenumber {
 
@@ -9,16 +9,17 @@ public class PrintPrimenumber {
 			j = 1;
 			ct = 0;
 			while (j <= i) {
-				if (i % j == 0)
+				if (i % j == 0) 
 					ct++;
 				j++;
 			}
 			if (ct == 2) {
-				System.out.printf("%d ", i);
+				System.out.printf("%d ", j);
 				n++;
 			}
 			i++;
 		}
 	}
 
-}
+	}
+

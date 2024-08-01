@@ -1,4 +1,4 @@
-package Practiseprograms;
+package PractiseJavaPrograms;
 
 public class Countspacestring {
 

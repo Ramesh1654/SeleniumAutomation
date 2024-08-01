@@ -1,4 +1,4 @@
-package Practiseprograms;
+package PractiseJavaPrograms;
 
 import java.util.Scanner;
 
@@ -19,6 +19,7 @@ public class PalindromeNumber {
 			System.out.println("Given number is Palindrome number");
 		}else
 			System.out.println("Not a Palindrome Number");
+		
 		
 	}
 

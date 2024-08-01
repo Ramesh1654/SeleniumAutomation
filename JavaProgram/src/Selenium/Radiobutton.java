@@ -35,10 +35,13 @@ public class Radiobutton {
 			if(i>=2) {
 			String str = ele.get(i).getText();
 			System.out.println(str);
-			ele.get(i).click();
+			//ele.get(i).click();
+			}
+			if(i%2!=0) {
+				ele.get(i).click();
 			}
 		}
-//		Thread.sleeps(4000);
-//		driver.quit();
+		Thread.sleep(4000);
+ 		driver.quit();
 	}
 }

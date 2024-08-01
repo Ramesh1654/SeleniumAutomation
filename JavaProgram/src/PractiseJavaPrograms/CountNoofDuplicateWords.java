@@ -1,4 +1,4 @@
-package Practiseprograms;
+package PractiseJavaPrograms;
 
 import java.util.Scanner;
 
