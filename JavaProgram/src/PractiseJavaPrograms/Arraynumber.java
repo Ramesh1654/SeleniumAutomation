@@ -20,5 +20,4 @@ public class Arraynumber {
 			System.out.print(arr[k] + " "); 
 		}
 	}
-
 }

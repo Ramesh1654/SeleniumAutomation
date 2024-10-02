@@ -8,21 +8,19 @@ public class Practisejava {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int ct =0, n=0,i=1,j=1;
-		while(n<25) {
-			j=1;
-			ct=0;
-			while(j<=i) {
-				if(i%j==0) 
-					j++;
-					ct++;
-				}
-			if(ct == 2) {
-				System.out.printf("%d ", j);
-				n++;
-			}
-			i++;
-		}	
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number: ");
+		int num = sc.nextInt();
+		int org_no =num;
+		int rev =0;
+		while(num!=0) {
+			rev = rev*10+num%10;
+			num = num/10;
+		}
+		//System.out.println("Given number is a palindrome number");
+		if(org_no==rev) {
+			System.out.println("Given number is a palindrome number");
+		}else 
+			System.out.println("Not a Palindrome number");						
 	}
 }

@@ -2,6 +2,7 @@ package Orangehrm_StepDefinitionFile;
 
 import java.time.Duration;
 
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
@@ -51,8 +52,6 @@ public class LoginStepDefinitionFile extends LoginUtitlies{
 		pageobjects.EnterPassword(Passwordfield);
 		getExtentReport("URL B launched", "Google 2.jpg", "Description 2");
 		logger.info("***********User Entered the Username && Password*************");
-
-
 	}
 	
 	@And("User Click on the Login button")

@@ -120,16 +120,6 @@ public class loginpage {
 //	public void continuebutton() {
 //	Continue.click();
 //	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	}	
 }
 

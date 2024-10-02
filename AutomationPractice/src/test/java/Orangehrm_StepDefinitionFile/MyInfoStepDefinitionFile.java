@@ -5,6 +5,9 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,15 +21,20 @@ import io.cucumber.java.en.When;
 
 public class MyInfoStepDefinitionFile extends LoginUtitlies{
 	//public WebDriver driver;
+	public Logger logger;
 	public MyInfoPageObjects InfoObjects;
 	
 	ChromeOptions options = new ChromeOptions();
 	
 	@Given("User Lauch the Chrome Browser")
 	public void user_lauch_the_chrome_browser() {
+		logger = Logger.getLogger("AutomationPractice For OrangeHRM MyInfo");
+		PropertyConfigurator.configure("log4j.properties");
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		logger.info("******ChromeBrowser was Lauched*****");
 		InfoObjects = new MyInfoPageObjects(driver);
 	   
 	}
@@ -37,10 +45,10 @@ public class MyInfoStepDefinitionFile extends LoginUtitlies{
 		driver.get(OrangeHrmURL);
 	    
 	}
-	@And("User Enter the Username as {string} && Password {string}")
-	public void user_enter_the_username_as_password(String Username, String Password) throws Throwable {
-		InfoObjects.Userfield(Username);
-		InfoObjects.Passwordfield(Password);
+	@And("User Enter the Usernamefield as {string} && Passwordfield {string}")
+	public void user_enter_the_username_as_password(String Usernamefield, String Passwordfield) throws Throwable {
+		InfoObjects.EnterUserfield(Usernamefield);
+		InfoObjects.EnterPasswordfield(Passwordfield);
 		getScreenshot("login Page", "User&Pass.jpg", "Entering Username & Password");
 	}
 	

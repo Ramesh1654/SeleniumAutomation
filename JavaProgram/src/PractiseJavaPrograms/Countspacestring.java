@@ -5,6 +5,7 @@ public class Countspacestring {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		// This program concept is same as CountCharacterOccurance
 		String s = "Ramesh Software";
 		int count = 0;
 		int no = s.length();
@@ -15,5 +16,4 @@ public class Countspacestring {
 		}
 		System.out.println("spacecount:"+count);
 	}
-
 }

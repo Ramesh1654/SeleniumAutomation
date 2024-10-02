@@ -41,7 +41,7 @@ public class PaginationWebTable {
 		List<WebElement> listOfPageNums = driver.findElements(By.xpath("//*[@id='pagination']/li")); //common XPath for all pageNumbers
 		System.out.println("listOfPageNums: "+listOfPageNums.size());
 		
-		for (int i =1; i <= listOfPageNums.size(); i++) {
+		/*for (int i =1; i <= listOfPageNums.size(); i++) {
 			//iteration all pageNumbers
 			WebElement pageNum = driver.findElement(By.xpath("//*[@id='pagination']/li[" + i + "]")); 
 			fluentWaitForElements(pageNum, 10, 5);
@@ -66,7 +66,7 @@ public class PaginationWebTable {
 				checkBox.click(); //clicking checkboxes
 			}
 //			Thread.sleep(2000);
-		}
+		}*/
 		driver.quit();
 	}
 

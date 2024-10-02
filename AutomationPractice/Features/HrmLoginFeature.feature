@@ -14,7 +14,7 @@ Scenario: Succesful Login with Orangehrm Valid Creditials
 Scenario: Succesful Login with HRM Valid Creditials
  Given  User Lauch the Chrome Browser
  When    User Opens the OrangeHrmURL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
- And     User Enter the Username as "Admin" && Password "admin123"
+ And     User Enter the Usernamefield as "Admin" && Passwordfield "admin123"
  Then    User Click on the OrangehrmLogin button
  When    Pagee Title should be "OrangeHRM"
  And     User Click on the My Info

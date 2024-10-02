@@ -1,6 +1,7 @@
 package Orangehrm_Utilities;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -23,6 +24,8 @@ public class LoginUtitlies {
 	public static WebDriver driver;
 	static ExtentReports extentreports =new ExtentReports();
 	static File file=new File("report1.html");
+	
+	// Types of reporters
 	static ExtentSparkReporter spartReporter=new ExtentSparkReporter(file);
 	static ExtentTest test1=extentreports.createTest("TestcaseName 1", "TestCaseDescription");
 	static ExtentTest test2=extentreports.createTest("TestcaseName 2", "TestCaseDescription");

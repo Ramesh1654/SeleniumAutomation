@@ -18,9 +18,6 @@ public class PalindromeNumber {
 		if(org_no==Rev) {
 			System.out.println("Given number is Palindrome number");
 		}else
-			System.out.println("Not a Palindrome Number");
-		
-		
+			System.out.println("Not a Palindrome Number");	
 	}
-
 }

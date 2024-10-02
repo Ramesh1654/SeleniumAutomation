@@ -15,10 +15,10 @@ public class MyInfoPageObjects extends LoginUtitlies{
 		Idriver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-	@FindBy(xpath = "//input[@name='username']")
-	WebElement Username;
+	@FindBy(xpath = "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")
+	WebElement Usernamefield;
 	@FindBy(xpath = "//input[@type='password']")
-	WebElement Password;
+	WebElement Passwordfield;
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement Login;
 	@FindBy(xpath = "//*[@id='app']/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a")
@@ -29,12 +29,12 @@ public class MyInfoPageObjects extends LoginUtitlies{
 	@FindBy(xpath = "//a[text()='Logout']")
 	WebElement Logout;
 
-	public void Userfield(String usrname) {
-		Username.sendKeys(usrname);
+	public void EnterUserfield(String username) {
+		Usernamefield.sendKeys(username);
 	}
 
-	public void Passwordfield(String paswrd) {
-		Password.sendKeys(paswrd);
+	public void EnterPasswordfield(String pasword) {
+		Passwordfield.sendKeys(pasword);
 	}
 
 	public void loginbutton() {
